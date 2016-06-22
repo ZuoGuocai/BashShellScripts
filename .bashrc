@@ -11,7 +11,13 @@ if [ -f /etc/bashrc ]; then
 	. /etc/bashrc
 fi
 
-#clear
+
+
+alias cls='clear'
+EDITOR=vi
+export EDITOR
+
+clear
 
 #echo -e "I want to tell the world I'm using the Github.\n My Github http://github.com/zuoguocai "|boxes -d dog
 
