@@ -15,23 +15,11 @@ fi
 
 
 
-
-
-
-
-
-
-
-#---------------------------
-
 alias cls='clear'
 alias ls='ls -trl'
 alias df='df -Th'
 alias which='type -all'
 alias mkdir='mkdir -p'
-alias rm='rm -i'
-alias cp='cp -i'
-alias mv='mv -i'
 
 
 
